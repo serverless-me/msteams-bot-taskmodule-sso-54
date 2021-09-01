@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Microsoft Teams Task Module Tester - Custom Form</title>
+    <link rel="stylesheet" href="/css/msteams-16.css" />
+    <link rel="stylesheet" href="/css/Custom.css" />
+    <link rel="stylesheet" href="/css/Site.css" />
+
+    <script src="https://statics.teams.cdn.office.net/sdk/v1.5.2/js/MicrosoftTeams.min.js" asp-append-version="true"></script>
+</head>
+<body class="theme-light">
+    <div class="surface">
+        <div class="panel">
+
+<html>
+<head>
+    <style>
+        body {
+            margin: 0;
+            padding-left: 4px;
+            padding-right: 4px;
+        }
+    </style>
+    <title>Microsoft Teams Task Module Tester - Custom Form</title>
+</head>
+<body>
+    <script>
+        microsoftTeams.initialize();
+        var authTokenRequest = {
+            successCallback: function(result) { console.log("Success: " + result); },
+            failureCallback: function(error) { console.log("Failure: " + error); },
+        };
+        microsoftTeams.authentication.getAuthToken(authTokenRequest);
+    </script>
+    <div class="surface theme-light">
+        <div class="panel">
+            Test
+        </div>
+    </div>
+</body>
+</html>
+        </div>
+    </div>
+</body>
+</html>

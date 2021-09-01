@@ -1,0 +1,47 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/teams/v1.5/MicrosoftTeams.schema.json",
+  "manifestVersion": "1.5",
+  "version": "1.0.5",
+  "id": "9752e77b-6723-4bc9-b7d3-d23213aa87de",
+  "packageName": "com.microsoft.teams.samples",
+  "developer": {
+    "name": "Microsoft",
+    "websiteUrl": "https://1b21bd29b5eb.ngrok.io",
+    "privacyUrl": "https://1b21bd29b5eb.ngrok.io/privacy",
+    "termsOfUseUrl": "https://1b21bd29b5eb.ngrok.io/termsofuse"
+  },
+  "icons": {
+    "color": "icon-color.png",
+    "outline": "icon-outline.png"
+  },
+  "name": {
+    "short": "Task Module",
+    "full": "Simple Task Module"
+  },
+  "description": {
+    "short": "Test Task Module Scenario",
+    "full": "Simple Task Module Scenario Test"
+  },
+  "accentColor": "#FFFFFF",
+  "bots": [
+    {
+      "botId": "e9535fba-33aa-41d5-b846-a4f88b7bd9d6",
+      "scopes": [
+        "personal",
+        "team",
+        "groupchat"
+      ],
+      "supportsFiles": false,
+      "isNotificationOnly": false
+    }
+  ],
+  "permissions": [
+    "identity",
+    "messageTeamMembers"
+  ],
+  "validDomains": [ "1b21bd29b5eb.ngrok.io" ],
+  "webApplicationInfo": {
+    "id": "e9535fba-33aa-41d5-b846-a4f88b7bd9d6",
+    "resource": "api://1b21bd29b5eb.ngrok.io/e9535fba-33aa-41d5-b846-a4f88b7bd9d6"
+  }
+}
